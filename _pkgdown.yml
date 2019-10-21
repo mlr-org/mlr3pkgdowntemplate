@@ -1,5 +1,7 @@
 template:
   package: mlr3pkgdowntemplate
+  params:
+    bootswatch: journal
 
 development:
   destination: dev
