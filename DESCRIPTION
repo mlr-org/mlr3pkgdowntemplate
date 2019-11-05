@@ -1,14 +1,19 @@
 Package: mlr3pkgdowntemplate
 Title: 'pkgdown' Templates for Core 'mlr3' Packages
 Version: 0.0.0.9000
-Authors@R: c(
-    person("Michel", "Lang", , "michellang@gmail.com", role = c("aut", "cre"))
-  )
-Description: This is a private template for use by core mlr3 packages.
-   Please don't use for your own code.
+Authors@R: 
+    person(given = "Michel",
+           family = "Lang",
+           role = c("aut", "cre"),
+           email = "michellang@gmail.com")
+Description: This is a private template for use by core mlr3
+    packages.  Please don't use for your own code.
 License: MIT + file LICENSE
+URL: https://github.com/mlr-org/mlr3pkgdowntemplate
+BugReports: 
+    https://github.com/mlr-org/mlr3pkgdowntemplate/issues
+Imports: 
+    pkgdown
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Imports: 
-    pkgdown 
