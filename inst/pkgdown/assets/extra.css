@@ -72,8 +72,3 @@ body {
     vertical-align: baseline;
     border-radius: .8em; /* default: .25*/
 }
-
-/* overall container width. default 1170px. Increase needed for mlr */
-.container {
-    width: 1220px;
-}
