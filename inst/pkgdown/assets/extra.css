@@ -63,13 +63,20 @@ body {
 /* reduce size of "version label" padding */
 .label {
     display: inline;
-    padding: .1em .3em .1em; /* default: .2 - .6 - .3 */
-    font-size: 75%;
-    font-weight: bold;
+    padding: 0em 0em 0em; /* default: .2 - .6 - .3 */
+    font-size: 90%;
     line-height: 1;
-    color: #ffffff;
+    color: #03638e;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .8em; /* default: .25*/
+}
+
+.navbar-brand {
+    padding: 19.5px 1px 19.5px 15px;  /* default: 19.5px 15px 19.5px 15px */
+}
+
+.label-default {
+    background-color: transparent;
 }
