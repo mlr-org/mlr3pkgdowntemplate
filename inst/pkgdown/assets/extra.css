@@ -127,3 +127,8 @@ small, .small {
   font-weight: 400;
   letter-spacing: 0.03em;
 }
+
+/* reference styling ----------------------------------------------- */
+.csl-entry {
+  margin-bottom: 20px;
+}
